@@ -1,5 +1,5 @@
 {
-  "name": "next-auth-vitest-issue-14",
+  "name": "next-auth-vitest-issue",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,10 +7,11 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "node ./node_modules/vitest/vitest.mjs"
+    "test": "vitest"
   },
   "dependencies": {
     "next": "14.2.18",
+    "next-auth": "^5.0.0-beta.25",
     "react": "^18",
     "react-dom": "^18"
   },
@@ -22,7 +23,6 @@
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@vitejs/plugin-react": "^4.3.3",
-    "@vitest/coverage-v8": "^2.1.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.18",
     "eslint-plugin-testing-library": "^6.5.0",
